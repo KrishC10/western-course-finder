@@ -1,0 +1,59 @@
+{
+  "generated": "2026-11-24",
+  "course_count": 85,
+  "prereq_status_counts": {
+    "partial": 13,
+    "parsed": 45,
+    "none": 17,
+    "unparsed": 10
+  },
+  "failures": [],
+  "problems": [],
+  "unknown_prereq_ids": {
+    "BIOLOGY-1201": [
+      "BIOLOGY-1002"
+    ]
+  },
+  "unparsed": [
+    {
+      "id": "BUSINESS-2257",
+      "prereq_text": "Business Administration 1220E, or Economics 1021A/B and Economics 1022A/B."
+    },
+    {
+      "id": "CALCULUS-2502",
+      "prereq_text": "Calculus 1501A/B or Calculus 1301A/B with a minimum mark of 85%, and Mathematics 1600A/B."
+    },
+    {
+      "id": "COMPSCI-3340",
+      "prereq_text": "Computer Science 2210A/B and Computer Science 2214A/B, or registration in the Honours Specialization in Computer Science."
+    },
+    {
+      "id": "ECON-2122",
+      "prereq_text": "Statistical Sciences 2244A/B or Statistical Sciences 1024A/B, Economics 1021A/B and Economics 1022A/B."
+    },
+    {
+      "id": "ENGLISH-2033",
+      "prereq_text": "At least 60% in English 1020 or 1022E, or permission of the Department."
+    },
+    {
+      "id": "GEOGRAPH-2143",
+      "prereq_text": "Geography 1500F/G or registration in a Geography module."
+    },
+    {
+      "id": "MATH-1600",
+      "prereq_text": "One of Ontario Secondary School MCV4U, MHF4U, or Mathematics 1229A/B."
+    },
+    {
+      "id": "PSYCHOL-3301",
+      "prereq_text": "Psychology 2035A/B and Psychology 2810, or permission of the instructor."
+    },
+    {
+      "id": "STATS-2857",
+      "prereq_text": "Calculus 1301A/B or Calculus 1501A/B (each with a minimum mark of 60%), or permission of the Department."
+    },
+    {
+      "id": "WRITING-2101",
+      "prereq_text": "Writing 1000F/G or any first-year English course."
+    }
+  ]
+}

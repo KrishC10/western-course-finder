@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Scraped pages stay on the developer's machine (see DECISIONS.md)
+scraper/raw/
+
+# Node
+node_modules/
+web/dist/
+
+.DS_Store
