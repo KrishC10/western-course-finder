@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Search every Western University undergraduate course by code, title or topic, and see what you can take next. Unofficial student project." />
+    <meta name="theme-color" content="#4F2683" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234F2683'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EW%3C/text%3E%3C/svg%3E" />
+    <title>Western Course Finder</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#/">Western Course Finder</a>
+        <nav aria-label="Main">
+          <ul class="nav">
+            <li><a href="#/" data-nav="search">Search</a></li>
+            <li><a href="#/next" data-nav="next">What can I take next?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <p id="sample-notice" class="sample-notice" hidden></p>
+
+    <main id="app" class="wrap" aria-busy="true" tabindex="-1">
+      <!-- Skeleton shown until the course data loads; same shape as the real page, so nothing jumps. -->
+      <div class="skeleton" aria-hidden="true">
+        <div class="skeleton-input"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+      <p class="visually-hidden">Loading courses…</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <strong>Unofficial student project.</strong> Not affiliated with Western University.
+          Always confirm with the official Academic Calendar and an academic counsellor.
+        </p>
+        <p>Course data last updated: <span id="data-date">…</span></p>
+        <p><a href="https://github.com/krishc10/western-course-finder">Source code on GitHub</a></p>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
